@@ -1,0 +1,148 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+    margin: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*height: 100%;*/
+    font-family: 'Numans', sans-serif;
+}
+
+.container{
+    height: 100%;
+    align-content: center;
+}
+
+.input-container {
+    margin-top: 5%;
+}
+
+.card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: lightgray;
+}
+
+.register-card {
+    height: 1400px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: lightgray;
+}
+
+.upload-card {
+    height: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: lightgray;
+}
+
+.social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: salmon;
+}
+
+.social_icon span:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.card-header h3{
+    color: #0f0f0f;
+}
+
+.social_icon{
+    position: absolute;
+    right: 0px;
+    top: -45px;
+}
+
+.input-group-prepend span{
+    width: 50px;
+    background-color: salmon;
+    color: black;
+    border:0 !important;
+}
+
+.input-group-text {
+    padding-left: 16px;
+}
+
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+    color: white;
+}
+
+.remember input
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.login_btn{
+    color: black;
+    background-color: salmon;
+    width: 100px;
+}
+
+.login_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.links{
+    color: white;
+}
+
+.links a{
+    margin-left: 4px;
+}
+
+#register-success {
+    padding-top: 50px;
+    margin: 0px auto;
+    text-align: center;
+    z-index: 5;
+}
+
+#file-upload {
+    border: 0 #fff;
+    background-color: lightgray;
+}
+
+#contact-title , #about-title {
+    margin: 100px auto;
+    text-align: center;
+}
+
+#contact-details {
+    width: 30%;
+    margin: 100px auto;
+}
+
+#about-details {
+    width: 35%;
+    margin: 50px auto;
+}
+
+#about-image {
+    margin-bottom: 50px;
+}
+
+.navbar {
+    background-color: white;
+}
